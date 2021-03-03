@@ -1,0 +1,178 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.headerBackground{
+  background: #E0E0E0;
+}
+.headerFont{
+  font-size: 25px !important;
+}
+.App-link {
+  color: #61dafb;
+}
+
+.ant-card-head{
+  background: #708090;
+}
+
+.app_background{
+  background: #ebebf2;
+}
+
+.mt_200{
+  margin-top: 200px;
+}
+.cardFont{
+  text-align: center;
+  font-size: 35px;
+}
+.mt_130{
+  margin-top: 130px;
+}
+.txtCntr{
+  text-align: center;
+}
+.userIcon{
+  text-align: center;
+  font-size: 35px;
+}
+.mt_100{
+  margin-top: 100px;
+}
+.mt_70{
+  margin-top: 70px;
+}
+.mt_50{
+  margin-top: 50px;
+}
+.mt_40{
+  margin-top: 40px;
+}
+.mt_10{
+  margin-top: 10px;
+}
+.cardHt{
+  height: 350px;
+  width: 600px;
+}
+.selectWidth{
+  width: 230px !important;
+}
+.ml_194{
+  margin-left: 194px;
+}
+.app_height{
+  min-height: 700px;
+}
+.login-form-button{
+  background: #708090 !important;
+  border: 1px solid #708090 !important;
+  padding: 2px 60px;
+  font-size: 18px;
+}
+.ant-card-head-title{
+  font-size: 18px;
+  color: #ffffff !important;
+}
+
+.ant-layout-sider{
+  background: #F0F0F0 !important;
+}
+
+.ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: rgb(0, 146, 255);
+  color: #ffffff !important;
+}
+
+.cardBackground{
+  background-color: rgb(0, 146, 255);
+  color: #ffffff !important;
+}
+
+.mt_5{
+  margin-top: 10px;
+}
+
+.ant_icon_bg{
+  color: rgb(0, 146, 255) !important;
+  font-size: 25px;;
+
+}
+
+
+.ant-menu.ant-menu-dark{
+  background: #F0F0F0 !important;
+  color: #000000 !important;
+}
+
+.ant-menu-dark .ant-menu-item{
+  color: #000000 !important;
+}
+
+.ant-menu-dark.ant-menu-inline .ant-menu-item{
+  border-bottom: 1px solid #ffffff !important 
+}
+
+.iconSizePos{
+  position: relative;
+  top: 1px;
+}
+
+.point { cursor: pointer; }
+
+.ml_10{
+  margin-left: 10px;
+}
+
+.text_decor{
+  text-decoration: underline;
+}
+
+.textArea_Width{
+  width: 537px !important;
+}
+.deleteIcon{
+  font-size: 25px;
+  text-align: center;
+}
+.start_btn{
+  background: #B0B0B0 !important;
+  border: 1px solid #B0B0B0 !important;
+}
+.start_btn_txt{
+  color: #ffffff !important;
+}
+.start_btn_txt_pad{
+  padding: 3px 19px !important;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
